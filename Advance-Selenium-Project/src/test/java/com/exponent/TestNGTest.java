@@ -39,6 +39,7 @@ public class TestNGTest {
 	@BeforeClass
 	public void openWebPage() {
 		driver.get("https://demo.guru99.com/test/newtours/");
+		driver.manage().timeouts().implecitliwait(10, TimeUnit.SECONDS);
 	}
 	@BeforeMethod
 	public void beforeMehod() {
