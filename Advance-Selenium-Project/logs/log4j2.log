@@ -1,0 +1,14 @@
+[INFO ] 2025-03-25 10:09:18.903 [main] TestLogger - Logged into Myntra
+[INFO ] 2025-03-25 10:09:19.467 [main] TestLogger - Quitting the driver
+[DEBUG] 2025-03-25 10:09:19.467 [main] TestLogger - Debug log
+[WARN ] 2025-03-25 10:09:19.468 [main] TestLogger - Warning log
+[TRACE] 2025-03-25 10:09:19.468 [main] TestLogger - trace
+[FATAL] 2025-03-25 10:09:19.469 [main] TestLogger - Fatal log
+[INFO ] 2025-03-25 10:10:37.289 [main] TestLogger - Logged into Myntra
+[INFO ] 2025-03-25 10:10:38.388 [main] TestLogger - Quitting the driver
+[WARN ] 2025-03-25 10:10:38.388 [main] TestLogger - Warning log
+[FATAL] 2025-03-25 10:10:38.388 [main] TestLogger - Fatal log
+[INFO ] 2025-03-25 10:12:12.783 [main] TestLogger - Logged into Myntra
+[INFO ] 2025-03-25 10:12:14.011 [main] TestLogger - Quitting the driver
+[WARN ] 2025-03-25 10:12:14.012 [main] TestLogger - Warning log
+[FATAL] 2025-03-25 10:12:14.012 [main] TestLogger - Fatal log
