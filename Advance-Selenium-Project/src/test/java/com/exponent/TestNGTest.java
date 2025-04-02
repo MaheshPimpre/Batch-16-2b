@@ -30,7 +30,7 @@ public class TestNGTest {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Auto-Se-Test\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		 driver = new ChromeDriver();
-		System.out.println("Browser Open Success");
+		System.out.println("Browser Open Successfully");
 	}
 	@BeforeTest
 	public void manageWindow() {
