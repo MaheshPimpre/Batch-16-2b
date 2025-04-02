@@ -2,7 +2,7 @@ package com.exponent;
 
 
 import java.util.Set;
-
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -34,6 +34,7 @@ public class TestNGTest {
 	@BeforeTest
 	public void manageWindow() {
 		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 	}
 	@BeforeClass
 	public void openWebPage() {
